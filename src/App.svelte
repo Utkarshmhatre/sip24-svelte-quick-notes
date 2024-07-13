@@ -61,46 +61,42 @@
   <textarea class="mt-3 block w-full bg-gray-50 border border-gray-300 rounded-lg text-gray-900 p-2.5" bind:value={note}></textarea>
 </main>
 <style>
-  /* Violet Theme Background and Border Colors */
   .bg-light-gray {
-    background-color: #f3e8ff; /* Light violet */
-    border-color: #e0d4f7; /* Light violet border */
+    background-color: #f3e8ff;
+    border-color: #e0d4f7;
   }
   .bg-dark-gray {
-    background-color: #c4b5fd; /* Darker violet for selected page */
+    background-color: #c4b5fd;
   }
 
-  /* Button Styles */
   button {
-    background-color: #a78bfa; /* Violet */
-    color: white; /* White text for better contrast */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+    background-color: #a78bfa;
+    color: white;
+    transition: background-color 0.3s;
   }
   button:hover {
-    background-color: #8b5cf6; /* Darker violet on hover */
+    background-color: #8b5cf6;
   }
   .font-medium {
-    font-weight: 500; /* Medium font weight for better readability */
+    font-weight: 500;
   }
 
-  /* "Add Page" Button Enhancement */
   .text-center > button {
     background-color: transparent;
-    color: #7c3aed; /* Violet text color */
-    border: 2px solid #7c3aed; /* Violet border */
+    color: #7c3aed;
+    border: 2px solid #7c3aed;
     padding: 0.5rem 1rem;
-    border-radius: 0.375rem; /* Rounded corners */
+    border-radius: 0.375rem;
     transition: all 0.3s ease-in-out;
   }
   .text-center > button:hover {
-    background-color: #6d28d9; /* Darker violet */
+    background-color: #6d28d9;
     color: white;
     border-color: #6d28d9;
   }
 
-  /* Content Editable Styling */
   h1[contenteditable] {
-    border-bottom: 2px solid #a78bfa; /* Violet border */
-    padding-bottom: 0.25rem; /* Padding for visual separation */
+    border-bottom: 2px solid #a78bfa;
+    padding-bottom: 0.25rem;
   }
 </style>
